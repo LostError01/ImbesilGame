@@ -15,8 +15,30 @@ public class Movimiento : MonoBehaviour
 
     private Vector2 movimiento;
 
+    public static Vector2 posicionGuardada; // Posicion del Jugador
+    private Vector2 posicionInicial; // Posicion inicial del Jugador
+
+    public static bool Perder = false; // Bandera para indicar si el jugador ha perdido
+
+    private void Start()
+    {
+        posicionInicial = transform.position; // Guardar la posición inicial del jugador
+
+        if (!Perder)
+        {
+            // Restaurar posición al cargar una nueva escena
+            transform.position = posicionGuardada;
+        }
+        else
+        {
+            transform.position = posicionInicial; // Restaurar posición inicial
+        }
+    }
     private void Update()
     {
+        // Restaurar valor Perder
+        Perder = false;
+
         // Detectar click izquierdo para atacar
         if (Input.GetMouseButtonDown(0) && !isAttacking && Time.time >= lastAttackTime + attackCooldown)
         {
@@ -52,6 +74,9 @@ public class Movimiento : MonoBehaviour
             }
 
             rb.linearVelocity = new Vector2(movimiento.x, movimiento.y) * speed; // Aplicar velocidad al Rigidbody2D
+
+            // Actualizar posición de jugador en cada frame
+            posicionGuardada = transform.position;
 
         }
     }

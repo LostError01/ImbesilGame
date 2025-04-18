@@ -13,6 +13,27 @@ public class Enemy : MonoBehaviour
 
     public SceneTransition transition;
 
+    //Instancias
+    public string idEnemigo;
+
+    private void Start()
+    {
+        // Si este enemigo ya fue destruido, eliminarse inmediatamente
+        if (EnemyManager.Instance.enemigosDestruidos.Contains(idEnemigo) && Movimiento.Perder == false)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    public void OnDestroy()
+    {
+        // Si el objeto se destruye manualmente (no por cambio de escena), registrar su ID
+        if (gameObject.scene.isLoaded && Movimiento.Perder == false)
+        {
+            EnemyManager.Instance.enemigosDestruidos.Add(idEnemigo);
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {

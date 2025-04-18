@@ -8,6 +8,8 @@ TagManager:
   - AreaAttack
   - PlayerLife
   - EnemyLife
+  - NPC
+  - Vida
   layers:
   - Default
   - TransparentFX

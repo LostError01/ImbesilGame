@@ -9,20 +9,16 @@ public class VidasJugador : MonoBehaviour
 
     public void Start()
     {
+        if(Movimiento.Perder)
+        {
+            vida = 100f;
+        }
+
         //Inicializa la barra de vida
         if (barraVida != null)
         {
             barraVida.maxValue = vidaMaxima;
             barraVida.value = vida;
-        }
-    }
-
-    public void Update()
-    {
-        //Ejemplo de daño
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            TakeDamage(10f);
         }
     }
 
