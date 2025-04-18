@@ -1,11 +1,12 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class Enemy : MonoBehaviour
 {
     public Rigidbody2D rbEnemy;
     public Animator animEnemy;
-    private Transform playerTarget;
+    public Transform playerTarget;
     public float vel;
 
     private bool isChasing;
@@ -18,7 +19,7 @@ public class Enemy : MonoBehaviour
         Vector2 direccion = (playerTarget.position - transform.position).normalized;
 
         //Variables para la animacion
-        if(direccion != Vector2.zero && isChasing == true)
+        if (direccion != Vector2.zero && isChasing == true)
         {
             animEnemy.SetFloat("E_Horizontal", direccion.x);
             animEnemy.SetFloat("E_Vertical", direccion.y);
@@ -46,7 +47,7 @@ public class Enemy : MonoBehaviour
             isChasing = true;
         }
 
-        if(collision.gameObject.CompareTag("AreaAttack"))
+        if (collision.gameObject.CompareTag("AreaAttack"))
         {
             rbEnemy.linearVelocity = Vector2.zero;
             isChasing = false;
@@ -68,6 +69,8 @@ public class Enemy : MonoBehaviour
         {
             rbEnemy.linearVelocity = Vector2.zero;
             isChasing = false;
+            //Destruir el objeto del enemigo
+            Destroy(gameObject);
 
             transition.LoadSceneWithFade("BattleScene");
         }

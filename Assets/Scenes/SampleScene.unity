@@ -3660,8 +3660,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e14d62f1cab955479fbb2cb58b27676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 100
-  vidaMaxima: 100
   barraVida: {fileID: 499174802}
 --- !u!1 &1244648035
 GameObject:
@@ -4042,6 +4040,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rbEnemy: {fileID: 1407161481}
   animEnemy: {fileID: 1407161485}
+  playerTarget: {fileID: 1162750685}
   vel: 2
   transition: {fileID: 1757539684}
 --- !u!95 &1407161485

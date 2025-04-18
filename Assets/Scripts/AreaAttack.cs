@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class AreaAttack : MonoBehaviour
 {
@@ -12,6 +14,9 @@ public class AreaAttack : MonoBehaviour
         {
             // Desactivar el Rigidbody2D del enemigo
             rbEnemy.linearVelocity = Vector2.zero;
+
+            //Destruir el objeto del enemigo
+            Destroy(col.gameObject);
 
             transition.LoadSceneWithFade("BattleScene01");
         }

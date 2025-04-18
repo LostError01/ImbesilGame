@@ -3158,6 +3158,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5144815457110085328, guid: db0a5f07eb887cc42b52838ea64131e4, type: 3}
   m_PrefabInstance: {fileID: 920245149}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &920245151 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 108404500814008802, guid: db0a5f07eb887cc42b52838ea64131e4, type: 3}
+  m_PrefabInstance: {fileID: 920245149}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1019877097
 GameObject:
   m_ObjectHideFlags: 0
@@ -3450,6 +3461,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vidaPlayer: {fileID: 2143383812}
   animPlayer: {fileID: 514028253}
+  sliderEnemigo: {fileID: 920245151}
+  animEnemigo: {fileID: 1019877100}
+  jugadorEmpieza: 1
 --- !u!4 &1417190366
 Transform:
   m_ObjectHideFlags: 0
