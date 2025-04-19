@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Edificios 1_4
+  m_Name: Calles_9
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -8226292703187759279, guid: 82b78297d8ea4e6448909f680b0330f8, type: 3}
+  m_Sprite: {fileID: -2721471187932375802, guid: 6f4d8caafe629d64cbc6d360ad9d53c7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

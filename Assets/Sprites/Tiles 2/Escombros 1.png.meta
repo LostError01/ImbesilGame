@@ -1,46 +1,34 @@
 fileFormatVersion: 2
-guid: 6f4d8caafe629d64cbc6d360ad9d53c7
+guid: 7e7f85ffbda4acd4f9eb9f7151f3c611
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1409105098624181702
-    second: Calles_0
+      213: 4426761341796442052
+    second: Escombros 1_0
   - first:
-      213: -4364355411173747976
-    second: Calles_1
+      213: -7645630926113659840
+    second: Escombros 1_1
   - first:
-      213: -4853330595042912053
-    second: Calles_2
+      213: -6736486716044852349
+    second: Escombros 1_2
   - first:
-      213: -980304915952680227
-    second: Calles_3
+      213: 468556249786190598
+    second: Escombros 1_3
   - first:
-      213: -5602790861249077658
-    second: Calles_4
+      213: 2801514078843124210
+    second: Escombros 1_4
   - first:
-      213: 2524983992519554498
-    second: Calles_5
+      213: 4362091450017249295
+    second: Escombros 1_5
   - first:
-      213: -7462437789077174396
-    second: Calles_6
+      213: 1995569242637398508
+    second: Escombros 1_6
   - first:
-      213: -3424070263634792072
-    second: Calles_7
+      213: -6637162418494113294
+    second: Escombros 1_7
   - first:
-      213: 3796807822529647975
-    second: Calles_8
-  - first:
-      213: -2721471187932375802
-    second: Calles_9
-  - first:
-      213: -2203130183394280456
-    second: Calles_10
-  - first:
-      213: -1754875636662409798
-    second: Calles_11
-  - first:
-      213: 7852096080402454432
-    second: Calles_12
+      213: 3753557670466934547
+    second: Escombros 1_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -87,7 +75,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -149,13 +137,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Calles_0
+      name: Escombros 1_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 400
-        width: 16
-        height: 16
+        x: 0
+        y: 3
+        width: 23
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6c5afa61f952e8310800000000000000
-      internalID: 1409105098624181702
+      spriteID: 4cf55338cf30f6d30800000000000000
+      internalID: 4426761341796442052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Calles_1
+      name: Escombros 1_1
       rect:
         serializedVersion: 2
-        x: 48
-        y: 400
-        width: 16
-        height: 16
+        x: 27
+        y: 2
+        width: 30
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8f25f6b70e1be63c0800000000000000
-      internalID: -4364355411173747976
+      spriteID: 04421455e2345e590800000000000000
+      internalID: -7645630926113659840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Calles_2
+      name: Escombros 1_2
       rect:
         serializedVersion: 2
-        x: 80
-        y: 400
-        width: 16
-        height: 16
+        x: 53
+        y: 19
+        width: 6
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +196,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bc89ee0b98185acb0800000000000000
-      internalID: -4853330595042912053
+      spriteID: 3834200f5013382a0800000000000000
+      internalID: -6736486716044852349
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Calles_3
+      name: Escombros 1_3
       rect:
         serializedVersion: 2
-        x: 112
-        y: 400
-        width: 16
-        height: 16
+        x: 61
+        y: 1
+        width: 34
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -230,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dd242117fd14562f0800000000000000
-      internalID: -980304915952680227
+      spriteID: 60b8bc93d65a08600800000000000000
+      internalID: 468556249786190598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Calles_4
+      name: Escombros 1_4
       rect:
         serializedVersion: 2
-        x: 144
-        y: 400
-        width: 16
-        height: 16
+        x: 96
+        y: 7
+        width: 10
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,20 +240,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 66e91748563ee32b0800000000000000
-      internalID: -5602790861249077658
+      spriteID: 2f933be263af0e620800000000000000
+      internalID: 2801514078843124210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Calles_5
+      name: Escombros 1_5
       rect:
         serializedVersion: 2
-        x: 16
-        y: 368
-        width: 16
-        height: 16
+        x: 99
+        y: 0
+        width: 29
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -274,20 +262,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2c5fca1309b8a0320800000000000000
-      internalID: 2524983992519554498
+      spriteID: f08fb0cff03498c30800000000000000
+      internalID: 4362091450017249295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Calles_6
+      name: Escombros 1_6
       rect:
         serializedVersion: 2
-        x: 48
-        y: 368
-        width: 16
-        height: 16
+        x: 100
+        y: 20
+        width: 12
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,20 +284,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4878a975e58107890800000000000000
-      internalID: -7462437789077174396
+      spriteID: ce1f81837afa1bb10800000000000000
+      internalID: 1995569242637398508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Calles_7
+      name: Escombros 1_7
       rect:
         serializedVersion: 2
-        x: 80
-        y: 368
-        width: 16
-        height: 16
+        x: 118
+        y: 17
+        width: 10
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -318,20 +306,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 871f11a9c324b70d0800000000000000
-      internalID: -3424070263634792072
+      spriteID: 2f9f51112ff04e3a0800000000000000
+      internalID: -6637162418494113294
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Calles_8
+      name: Escombros 1_8
       rect:
         serializedVersion: 2
-        x: 112
-        y: 368
-        width: 16
-        height: 16
+        x: 27
+        y: 1
+        width: 10
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,96 +328,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 765dd462998f0b430800000000000000
-      internalID: 3796807822529647975
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Calles_9
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 368
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 60594d0af546b3ad0800000000000000
-      internalID: -2721471187932375802
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Calles_10
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 336
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8fbb7d855c8ec61e0800000000000000
-      internalID: -2203130183394280456
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Calles_11
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 336
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ab5efbbf7ed65a7e0800000000000000
-      internalID: -1754875636662409798
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Calles_12
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 336
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0a710ae68cf38fc60800000000000000
-      internalID: 7852096080402454432
+      spriteID: 317df1860d0571430800000000000000
+      internalID: 3753557670466934547
       vertices: []
       indices: 
       edges: []
@@ -438,7 +338,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8054e19a3e5d4394f8c5a437d7553650
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -448,19 +348,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Calles_0: 1409105098624181702
-      Calles_1: -4364355411173747976
-      Calles_10: -2203130183394280456
-      Calles_11: -1754875636662409798
-      Calles_12: 7852096080402454432
-      Calles_2: -4853330595042912053
-      Calles_3: -980304915952680227
-      Calles_4: -5602790861249077658
-      Calles_5: 2524983992519554498
-      Calles_6: -7462437789077174396
-      Calles_7: -3424070263634792072
-      Calles_8: 3796807822529647975
-      Calles_9: -2721471187932375802
+      Escombros 1_0: 4426761341796442052
+      Escombros 1_1: -7645630926113659840
+      Escombros 1_2: -6736486716044852349
+      Escombros 1_3: 468556249786190598
+      Escombros 1_4: 2801514078843124210
+      Escombros 1_5: 4362091450017249295
+      Escombros 1_6: 1995569242637398508
+      Escombros 1_7: -6637162418494113294
+      Escombros 1_8: 3753557670466934547
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

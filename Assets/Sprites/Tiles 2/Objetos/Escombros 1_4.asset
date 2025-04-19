@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Edificios 1_4
+  m_Name: Escombros 1_4
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -8226292703187759279, guid: 82b78297d8ea4e6448909f680b0330f8, type: 3}
+  m_Sprite: {fileID: 2801514078843124210, guid: 7e7f85ffbda4acd4f9eb9f7151f3c611, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
