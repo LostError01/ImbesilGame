@@ -8515,6 +8515,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3572311343610057709, guid: afb130b2f6a2db54395b8212e13e7478, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4178743960872578621, guid: afb130b2f6a2db54395b8212e13e7478, type: 3}
       propertyPath: enemigo
       value: 
