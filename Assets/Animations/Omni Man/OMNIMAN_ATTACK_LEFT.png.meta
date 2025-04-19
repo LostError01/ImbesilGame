@@ -1,0 +1,298 @@
+fileFormatVersion: 2
+guid: 3abaff80152f75a4581e442df2e0a0b8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7832470851097019999
+    second: OMNIMAN_ATTACK_LEFT_0
+  - first:
+      213: 7066756454916859684
+    second: OMNIMAN_ATTACK_LEFT_1
+  - first:
+      213: -8118817717175844512
+    second: OMNIMAN_ATTACK_LEFT_2
+  - first:
+      213: -4439248951041696195
+    second: OMNIMAN_ATTACK_LEFT_3
+  - first:
+      213: 4423386426599064617
+    second: OMNIMAN_ATTACK_LEFT_4
+  - first:
+      213: -4285348729170620069
+    second: OMNIMAN_ATTACK_LEFT_5
+  - first:
+      213: -2835755665535543480
+    second: OMNIMAN_ATTACK_LEFT_6
+  - first:
+      213: 3121164528578309252
+    second: OMNIMAN_ATTACK_LEFT_7
+  - first:
+      213: -6470913239405601211
+    second: OMNIMAN_ATTACK_LEFT_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 284
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OMNIMAN_ATTACK_LEFT_0
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 675
+        width: 44
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f564d39adb682bc60800000000000000
+      internalID: 7832470851097019999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OMNIMAN_ATTACK_LEFT_1
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 32
+        width: 615
+        height: 881
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427a481fd89221260800000000000000
+      internalID: 7066756454916859684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OMNIMAN_ATTACK_LEFT_2
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 14
+        width: 465
+        height: 899
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06106933d4a245f80800000000000000
+      internalID: -8118817717175844512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OMNIMAN_ATTACK_LEFT_3
+      rect:
+        serializedVersion: 2
+        x: 3098
+        y: 11
+        width: 395
+        height: 889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e52a3699e9462c0800000000000000
+      internalID: -4439248951041696195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OMNIMAN_ATTACK_LEFT_4
+      rect:
+        serializedVersion: 2
+        x: 4388
+        y: 208
+        width: 385
+        height: 685
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 924c8b5d486036d30800000000000000
+      internalID: 4423386426599064617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OMNIMAN_ATTACK_LEFT_8
+      rect:
+        serializedVersion: 2
+        x: 4458
+        y: 38
+        width: 175
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e5bd071b2b236a0800000000000000
+      internalID: -6470913239405601211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b5f273f4d852e124ca430aaa9335f65e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      OMNIMAN_ATTACK_LEFT_0: 7832470851097019999
+      OMNIMAN_ATTACK_LEFT_1: 7066756454916859684
+      OMNIMAN_ATTACK_LEFT_2: -8118817717175844512
+      OMNIMAN_ATTACK_LEFT_3: -4439248951041696195
+      OMNIMAN_ATTACK_LEFT_4: 4423386426599064617
+      OMNIMAN_ATTACK_LEFT_5: -4285348729170620069
+      OMNIMAN_ATTACK_LEFT_6: -2835755665535543480
+      OMNIMAN_ATTACK_LEFT_7: 3121164528578309252
+      OMNIMAN_ATTACK_LEFT_8: -6470913239405601211
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

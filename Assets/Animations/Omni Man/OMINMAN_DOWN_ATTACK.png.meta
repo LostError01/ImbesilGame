@@ -1,0 +1,276 @@
+fileFormatVersion: 2
+guid: 56334cd64584ff44995e5738a6bbcabb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5177579991304307359
+    second: OMINMAN_DOWN_ATTACK_0
+  - first:
+      213: 7120913525026345229
+    second: OMINMAN_DOWN_ATTACK_1
+  - first:
+      213: 7152824343959230822
+    second: OMINMAN_DOWN_ATTACK_2
+  - first:
+      213: 8164055907598753513
+    second: OMINMAN_DOWN_ATTACK_3
+  - first:
+      213: 2769079155180548908
+    second: OMINMAN_DOWN_ATTACK_4
+  - first:
+      213: -8344581077947442520
+    second: OMINMAN_DOWN_ATTACK_5
+  - first:
+      213: 5640913140030083945
+    second: OMINMAN_DOWN_ATTACK_6
+  - first:
+      213: 5871360207636124185
+    second: OMINMAN_DOWN_ATTACK_7
+  - first:
+      213: -2525209786670099170
+    second: OMINMAN_DOWN_ATTACK_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 284
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OMINMAN_DOWN_ATTACK_0
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 40
+        width: 455
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16df22e0e6a8528b0800000000000000
+      internalID: -5177579991304307359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OMINMAN_DOWN_ATTACK_1
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 40
+        width: 475
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01587f6f1192d260800000000000000
+      internalID: 7120913525026345229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OMINMAN_DOWN_ATTACK_2
+      rect:
+        serializedVersion: 2
+        x: 2888
+        y: 39
+        width: 475
+        height: 874
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 669d472f7dfe34360800000000000000
+      internalID: 7152824343959230822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OMINMAN_DOWN_ATTACK_3
+      rect:
+        serializedVersion: 2
+        x: 4168
+        y: 39
+        width: 485
+        height: 874
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee5adac79d8c4170800000000000000
+      internalID: 8164055907598753513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OMINMAN_DOWN_ATTACK_4
+      rect:
+        serializedVersion: 2
+        x: 4658
+        y: 778
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c23b97702debd6620800000000000000
+      internalID: 2769079155180548908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e746b226365c42141b1e823d75bfc2f5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      OMINMAN_DOWN_ATTACK_0: -5177579991304307359
+      OMINMAN_DOWN_ATTACK_1: 7120913525026345229
+      OMINMAN_DOWN_ATTACK_2: 7152824343959230822
+      OMINMAN_DOWN_ATTACK_3: 8164055907598753513
+      OMINMAN_DOWN_ATTACK_4: 2769079155180548908
+      OMINMAN_DOWN_ATTACK_5: -8344581077947442520
+      OMINMAN_DOWN_ATTACK_6: 5640913140030083945
+      OMINMAN_DOWN_ATTACK_7: 5871360207636124185
+      OMINMAN_DOWN_ATTACK_8: -2525209786670099170
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
