@@ -1,0 +1,1040 @@
+fileFormatVersion: 2
+guid: 338b7f4493c9a594baf93d1df72fc66f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6213488474519793812
+    second: Aceras_0
+  - first:
+      213: -17180827730781192
+    second: Aceras_1
+  - first:
+      213: -5826998851690080947
+    second: Aceras_2
+  - first:
+      213: 794364842232008415
+    second: Aceras_3
+  - first:
+      213: 8249297920032146251
+    second: Aceras_4
+  - first:
+      213: 1907125211848923182
+    second: Aceras_5
+  - first:
+      213: -6266721755952985435
+    second: Aceras_6
+  - first:
+      213: -2085592915733309054
+    second: Aceras_7
+  - first:
+      213: -3797262603850646214
+    second: Aceras_8
+  - first:
+      213: 880697001256151960
+    second: Aceras_9
+  - first:
+      213: 3861902026358200138
+    second: Aceras_10
+  - first:
+      213: 4828253274522522954
+    second: Aceras_11
+  - first:
+      213: 2667722148070930761
+    second: Aceras_12
+  - first:
+      213: 4808398747233081666
+    second: Aceras_13
+  - first:
+      213: -8789407771866770238
+    second: Aceras_14
+  - first:
+      213: 1567135639052241029
+    second: Aceras_15
+  - first:
+      213: 1770012106831153649
+    second: Aceras_16
+  - first:
+      213: -6162840398579435356
+    second: Aceras_17
+  - first:
+      213: 897955042197160019
+    second: Aceras_18
+  - first:
+      213: -675890940914400693
+    second: Aceras_19
+  - first:
+      213: 7383681637121506865
+    second: Aceras_20
+  - first:
+      213: 5105879548460330853
+    second: Aceras_21
+  - first:
+      213: 5252577911598821107
+    second: Aceras_22
+  - first:
+      213: -1287712558911186548
+    second: Aceras_23
+  - first:
+      213: 6979021607773300506
+    second: Aceras_24
+  - first:
+      213: 5632688681946505443
+    second: Aceras_25
+  - first:
+      213: 2641502212869772593
+    second: Aceras_26
+  - first:
+      213: -1648187139104239353
+    second: Aceras_27
+  - first:
+      213: 6498142516676575361
+    second: Aceras_28
+  - first:
+      213: 5642947945813963061
+    second: Aceras_29
+  - first:
+      213: 6809080918986346161
+    second: Aceras_30
+  - first:
+      213: 5840127231397767081
+    second: Aceras_31
+  - first:
+      213: -8079257071842819039
+    second: Aceras_32
+  - first:
+      213: 4028941251899490381
+    second: Aceras_33
+  - first:
+      213: -1683826273105512495
+    second: Aceras_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Aceras_0
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 399
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4907cbbd8deba3650800000000000000
+      internalID: 6213488474519793812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_1
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 399
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fbd822d026f2cff0800000000000000
+      internalID: -17180827730781192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_2
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 399
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d45576aca67522fa0800000000000000
+      internalID: -5826998851690080947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_3
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 399
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde4c438d96260b00800000000000000
+      internalID: 794364842232008415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_4
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 399
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4382e960c46b7270800000000000000
+      internalID: 8249297920032146251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_5
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 399
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28527a9648777a10800000000000000
+      internalID: 1907125211848923182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_6
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 399
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aac536f3c12809a0800000000000000
+      internalID: -6266721755952985435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_7
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 399
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28915a70b4c7e03e0800000000000000
+      internalID: -2085592915733309054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_8
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 399
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d7b92d7c96d4bc0800000000000000
+      internalID: -3797262603850646214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_9
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 367
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89bef9aa14dd83c00800000000000000
+      internalID: 880697001256151960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_10
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 367
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4711768e6b389530800000000000000
+      internalID: 3861902026358200138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_11
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 367
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a451881a5c6610340800000000000000
+      internalID: 4828253274522522954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_12
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 367
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 949b533d827a50520800000000000000
+      internalID: 2667722148070930761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_13
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 367
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 249d2434f2ddab240800000000000000
+      internalID: 4808398747233081666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_14
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 367
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4d2d32330c50680800000000000000
+      internalID: -8789407771866770238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_15
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 367
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58840988f859fb510800000000000000
+      internalID: 1567135639052241029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_16
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 367
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9cfcb12a8509810800000000000000
+      internalID: 1770012106831153649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_17
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 367
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a8fe334f41397aa0800000000000000
+      internalID: -6162840398579435356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_18
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 335
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 350ce627a5d267c00800000000000000
+      internalID: 897955042197160019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_19
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 335
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4284ef25c0ce96f0800000000000000
+      internalID: -675890940914400693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_20
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 335
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13eb33b145b187660800000000000000
+      internalID: 7383681637121506865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_21
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 335
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56fe8efa56abbd640800000000000000
+      internalID: 5105879548460330853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_22
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 335
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe29eff7c7e4e840800000000000000
+      internalID: 5252577911598821107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_23
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 335
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c891a411040212ee0800000000000000
+      internalID: -1287712558911186548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_24
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 335
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a176a130d277ad060800000000000000
+      internalID: 6979021607773300506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_25
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 335
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0e8c153845b2e40800000000000000
+      internalID: 5632688681946505443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_26
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 335
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135d28f644088a420800000000000000
+      internalID: 2641502212869772593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_27
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 303
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701135a87867029e0800000000000000
+      internalID: -1648187139104239353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_28
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 303
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180ce56b03a0e2a50800000000000000
+      internalID: 6498142516676575361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_29
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 303
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531f2445247cf4e40800000000000000
+      internalID: 5642947945813963061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_30
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 303
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be421f0507be7e50800000000000000
+      internalID: 6809080918986346161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_31
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 303
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7ac8e46cc4c0150800000000000000
+      internalID: 5840127231397767081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_32
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 303
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1240fb7bf76b0ef80800000000000000
+      internalID: -8079257071842819039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_33
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 303
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40036ce8bca9e730800000000000000
+      internalID: 4028941251899490381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aceras_34
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 303
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d773180de8d1a8e0800000000000000
+      internalID: -1683826273105512495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c2f995fe5d004ba4ebd740bbc5c9132a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Aceras_0: 6213488474519793812
+      Aceras_1: -17180827730781192
+      Aceras_10: 3861902026358200138
+      Aceras_11: 4828253274522522954
+      Aceras_12: 2667722148070930761
+      Aceras_13: 4808398747233081666
+      Aceras_14: -8789407771866770238
+      Aceras_15: 1567135639052241029
+      Aceras_16: 1770012106831153649
+      Aceras_17: -6162840398579435356
+      Aceras_18: 897955042197160019
+      Aceras_19: -675890940914400693
+      Aceras_2: -5826998851690080947
+      Aceras_20: 7383681637121506865
+      Aceras_21: 5105879548460330853
+      Aceras_22: 5252577911598821107
+      Aceras_23: -1287712558911186548
+      Aceras_24: 6979021607773300506
+      Aceras_25: 5632688681946505443
+      Aceras_26: 2641502212869772593
+      Aceras_27: -1648187139104239353
+      Aceras_28: 6498142516676575361
+      Aceras_29: 5642947945813963061
+      Aceras_3: 794364842232008415
+      Aceras_30: 6809080918986346161
+      Aceras_31: 5840127231397767081
+      Aceras_32: -8079257071842819039
+      Aceras_33: 4028941251899490381
+      Aceras_34: -1683826273105512495
+      Aceras_4: 8249297920032146251
+      Aceras_5: 1907125211848923182
+      Aceras_6: -6266721755952985435
+      Aceras_7: -2085592915733309054
+      Aceras_8: -3797262603850646214
+      Aceras_9: 880697001256151960
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
