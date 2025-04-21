@@ -145,7 +145,7 @@ TextureImporter:
         width: 12
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -162,12 +162,12 @@ TextureImporter:
       name: CONQUEST_ATTACK_LEFTt_1
       rect:
         serializedVersion: 2
-        x: 339
-        y: 199
-        width: 572
-        height: 712
+        x: 319
+        y: 41
+        width: 592
+        height: 870
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -185,11 +185,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1769
-        y: 199
+        y: 39
         width: 422
-        height: 712
+        height: 871
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -206,12 +206,12 @@ TextureImporter:
       name: CONQUEST_ATTACK_LEFTt_3
       rect:
         serializedVersion: 2
-        x: 3129
-        y: 199
+        x: 3130
+        y: 39
         width: 342
-        height: 712
+        height: 872
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -229,11 +229,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 4419
-        y: 209
+        y: 40
         width: 332
-        height: 702
+        height: 871
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -246,99 +246,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: CONQUEST_ATTACK_LEFTt_5
-      rect:
-        serializedVersion: 2
-        x: 649
-        y: 39
-        width: 172
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 903be3bc69aac1bc0800000000000000
-      internalID: -3810983620030582007
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CONQUEST_ATTACK_LEFTt_6
-      rect:
-        serializedVersion: 2
-        x: 1929
-        y: 39
-        width: 172
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d4e2bb91816ea8cb0800000000000000
-      internalID: -4860819856607728051
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CONQUEST_ATTACK_LEFTt_7
-      rect:
-        serializedVersion: 2
-        x: 3209
-        y: 39
-        width: 172
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3ca927bedc8607c00800000000000000
-      internalID: 896331559474469571
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CONQUEST_ATTACK_LEFTt_8
-      rect:
-        serializedVersion: 2
-        x: 4489
-        y: 39
-        width: 172
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 229f790cff4cb8320800000000000000
-      internalID: 2561357415817148706
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2ea7a12a3a66dfa4f8b7f9317926230c
     internalID: 0
     vertices: []
     indices: 
