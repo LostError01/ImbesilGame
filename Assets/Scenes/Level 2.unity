@@ -56260,11 +56260,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3443782781616460641, guid: 5a81ede1d28dd844ead16b38a52c4f12, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.28
+      value: 38.59
       objectReference: {fileID: 0}
     - target: {fileID: 3443782781616460641, guid: 5a81ede1d28dd844ead16b38a52c4f12, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 25.08
+      value: 21.74
       objectReference: {fileID: 0}
     - target: {fileID: 3443782781616460641, guid: 5a81ede1d28dd844ead16b38a52c4f12, type: 3}
       propertyPath: m_LocalPosition.z
