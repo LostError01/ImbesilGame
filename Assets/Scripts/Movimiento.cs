@@ -16,13 +16,15 @@ public class Movimiento : MonoBehaviour
     private Vector2 movimiento;
 
     public static Vector2 posicionGuardada; // Posicion del Jugador
-    private Vector2 posicionInicial; // Posicion inicial del Jugador
+    public Vector2 posicionInicial; // Posicion inicial del Jugador
+    public GameObject PosicionInicialJugador;
 
     public static bool Perder = false; // Bandera para indicar si el jugador ha perdido
 
     private void Start()
     {
-        posicionInicial = transform.position; // Guardar la posición inicial del jugador
+        //Posicion inicial del jugador
+        posicionInicial = PosicionInicialJugador.transform.position;
 
         if (!Perder)
         {

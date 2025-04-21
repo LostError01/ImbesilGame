@@ -134,12 +134,12 @@ TextureImporter:
       name: Escombros 2_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 7
-        width: 28
-        height: 18
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -156,12 +156,12 @@ TextureImporter:
       name: Escombros 2_1
       rect:
         serializedVersion: 2
-        x: 31
-        y: 2
-        width: 30
-        height: 28
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -178,12 +178,12 @@ TextureImporter:
       name: Escombros 2_2
       rect:
         serializedVersion: 2
-        x: 63
-        y: 2
+        x: 64
+        y: 0
         width: 32
-        height: 27
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -197,23 +197,23 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Escombros 2_4
+      name: Escombros 2_3
       rect:
         serializedVersion: 2
-        x: 97
-        y: 1
-        width: 30
-        height: 29
+        x: 96
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dfe7157dfa4e93c10800000000000000
-      internalID: 2033908150617341693
+      spriteID: b09d4abc1237bce48ae0f46b4f8b2dd4
+      internalID: -3404949832915765846
       vertices: []
       indices: 
       edges: []
@@ -236,9 +236,6 @@ TextureImporter:
       Escombros 2_1: 8636029542246109533
       Escombros 2_2: -1904457470446016837
       Escombros 2_3: -3404949832915765846
-      Escombros 2_4: 2033908150617341693
-      Escombros 2_5: 7221522288387215456
-      Escombros 2_6: -7577910124546807806
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

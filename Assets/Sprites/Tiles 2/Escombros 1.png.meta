@@ -141,11 +141,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3
-        width: 23
-        height: 25
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -162,12 +162,12 @@ TextureImporter:
       name: Escombros 1_1
       rect:
         serializedVersion: 2
-        x: 27
-        y: 2
-        width: 30
-        height: 29
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -184,12 +184,12 @@ TextureImporter:
       name: Escombros 1_2
       rect:
         serializedVersion: 2
-        x: 53
-        y: 19
-        width: 6
-        height: 8
+        x: 64
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -206,12 +206,12 @@ TextureImporter:
       name: Escombros 1_3
       rect:
         serializedVersion: 2
-        x: 61
-        y: 1
-        width: 34
-        height: 29
+        x: 96
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -224,121 +224,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Escombros 1_4
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 7
-        width: 10
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2f933be263af0e620800000000000000
-      internalID: 2801514078843124210
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Escombros 1_5
-      rect:
-        serializedVersion: 2
-        x: 99
-        y: 0
-        width: 29
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f08fb0cff03498c30800000000000000
-      internalID: 4362091450017249295
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Escombros 1_6
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 20
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ce1f81837afa1bb10800000000000000
-      internalID: 1995569242637398508
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Escombros 1_7
-      rect:
-        serializedVersion: 2
-        x: 118
-        y: 17
-        width: 10
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2f9f51112ff04e3a0800000000000000
-      internalID: -6637162418494113294
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Escombros 1_8
-      rect:
-        serializedVersion: 2
-        x: 27
-        y: 1
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 317df1860d0571430800000000000000
-      internalID: 3753557670466934547
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5766c826e6de77940a1a4ec65df67610
     internalID: 0
     vertices: []
     indices: 
@@ -352,11 +242,6 @@ TextureImporter:
       Escombros 1_1: -7645630926113659840
       Escombros 1_2: -6736486716044852349
       Escombros 1_3: 468556249786190598
-      Escombros 1_4: 2801514078843124210
-      Escombros 1_5: 4362091450017249295
-      Escombros 1_6: 1995569242637398508
-      Escombros 1_7: -6637162418494113294
-      Escombros 1_8: 3753557670466934547
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -218,10 +218,10 @@ TextureImporter:
       name: Aceras_0
       rect:
         serializedVersion: 2
-        x: 207
-        y: 399
-        width: 18
-        height: 18
+        x: 16
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,10 +240,10 @@ TextureImporter:
       name: Aceras_1
       rect:
         serializedVersion: 2
-        x: 239
-        y: 399
-        width: 18
-        height: 18
+        x: 48
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,10 +262,10 @@ TextureImporter:
       name: Aceras_2
       rect:
         serializedVersion: 2
-        x: 271
-        y: 399
-        width: 18
-        height: 18
+        x: 80
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,10 +284,10 @@ TextureImporter:
       name: Aceras_3
       rect:
         serializedVersion: 2
-        x: 303
-        y: 399
-        width: 18
-        height: 18
+        x: 112
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -306,10 +306,10 @@ TextureImporter:
       name: Aceras_4
       rect:
         serializedVersion: 2
-        x: 335
-        y: 399
-        width: 18
-        height: 18
+        x: 144
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,10 +328,10 @@ TextureImporter:
       name: Aceras_5
       rect:
         serializedVersion: 2
-        x: 415
-        y: 399
-        width: 18
-        height: 18
+        x: 224
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,10 +350,10 @@ TextureImporter:
       name: Aceras_6
       rect:
         serializedVersion: 2
-        x: 447
-        y: 399
-        width: 18
-        height: 18
+        x: 256
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -372,10 +372,10 @@ TextureImporter:
       name: Aceras_7
       rect:
         serializedVersion: 2
-        x: 479
-        y: 399
-        width: 18
-        height: 18
+        x: 288
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,10 +394,10 @@ TextureImporter:
       name: Aceras_8
       rect:
         serializedVersion: 2
-        x: 511
-        y: 399
-        width: 18
-        height: 18
+        x: 320
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -416,10 +416,10 @@ TextureImporter:
       name: Aceras_9
       rect:
         serializedVersion: 2
-        x: 207
-        y: 367
-        width: 18
-        height: 18
+        x: 16
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -438,10 +438,10 @@ TextureImporter:
       name: Aceras_10
       rect:
         serializedVersion: 2
-        x: 239
-        y: 367
-        width: 18
-        height: 18
+        x: 48
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -460,10 +460,10 @@ TextureImporter:
       name: Aceras_11
       rect:
         serializedVersion: 2
-        x: 271
-        y: 367
-        width: 18
-        height: 18
+        x: 80
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -482,10 +482,10 @@ TextureImporter:
       name: Aceras_12
       rect:
         serializedVersion: 2
-        x: 303
-        y: 367
-        width: 18
-        height: 18
+        x: 112
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -504,10 +504,10 @@ TextureImporter:
       name: Aceras_13
       rect:
         serializedVersion: 2
-        x: 335
-        y: 367
-        width: 18
-        height: 18
+        x: 144
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -526,10 +526,10 @@ TextureImporter:
       name: Aceras_14
       rect:
         serializedVersion: 2
-        x: 415
-        y: 367
-        width: 18
-        height: 18
+        x: 224
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -548,10 +548,10 @@ TextureImporter:
       name: Aceras_15
       rect:
         serializedVersion: 2
-        x: 447
-        y: 367
-        width: 18
-        height: 18
+        x: 256
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -570,10 +570,10 @@ TextureImporter:
       name: Aceras_16
       rect:
         serializedVersion: 2
-        x: 479
-        y: 367
-        width: 18
-        height: 18
+        x: 288
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -592,10 +592,10 @@ TextureImporter:
       name: Aceras_17
       rect:
         serializedVersion: 2
-        x: 511
-        y: 367
-        width: 18
-        height: 18
+        x: 320
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -614,10 +614,10 @@ TextureImporter:
       name: Aceras_18
       rect:
         serializedVersion: 2
-        x: 207
-        y: 335
-        width: 18
-        height: 18
+        x: 16
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -636,10 +636,10 @@ TextureImporter:
       name: Aceras_19
       rect:
         serializedVersion: 2
-        x: 239
-        y: 335
-        width: 18
-        height: 18
+        x: 48
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -658,10 +658,10 @@ TextureImporter:
       name: Aceras_20
       rect:
         serializedVersion: 2
-        x: 271
-        y: 335
-        width: 18
-        height: 18
+        x: 80
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -680,10 +680,10 @@ TextureImporter:
       name: Aceras_21
       rect:
         serializedVersion: 2
-        x: 303
-        y: 335
-        width: 18
-        height: 18
+        x: 112
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -702,10 +702,10 @@ TextureImporter:
       name: Aceras_22
       rect:
         serializedVersion: 2
-        x: 335
-        y: 335
-        width: 18
-        height: 18
+        x: 144
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -724,10 +724,10 @@ TextureImporter:
       name: Aceras_23
       rect:
         serializedVersion: 2
-        x: 415
-        y: 335
-        width: 18
-        height: 18
+        x: 224
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -746,10 +746,10 @@ TextureImporter:
       name: Aceras_24
       rect:
         serializedVersion: 2
-        x: 447
-        y: 335
-        width: 18
-        height: 18
+        x: 256
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -768,10 +768,10 @@ TextureImporter:
       name: Aceras_25
       rect:
         serializedVersion: 2
-        x: 479
-        y: 335
-        width: 18
-        height: 18
+        x: 288
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -790,10 +790,10 @@ TextureImporter:
       name: Aceras_26
       rect:
         serializedVersion: 2
-        x: 511
-        y: 335
-        width: 18
-        height: 18
+        x: 320
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -812,10 +812,10 @@ TextureImporter:
       name: Aceras_27
       rect:
         serializedVersion: 2
-        x: 207
-        y: 303
-        width: 18
-        height: 18
+        x: 16
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -834,10 +834,10 @@ TextureImporter:
       name: Aceras_28
       rect:
         serializedVersion: 2
-        x: 239
-        y: 303
-        width: 18
-        height: 18
+        x: 48
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -856,10 +856,10 @@ TextureImporter:
       name: Aceras_29
       rect:
         serializedVersion: 2
-        x: 271
-        y: 303
-        width: 18
-        height: 18
+        x: 80
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -878,10 +878,10 @@ TextureImporter:
       name: Aceras_30
       rect:
         serializedVersion: 2
-        x: 303
-        y: 303
-        width: 18
-        height: 18
+        x: 112
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -900,10 +900,10 @@ TextureImporter:
       name: Aceras_31
       rect:
         serializedVersion: 2
-        x: 415
-        y: 303
-        width: 18
-        height: 18
+        x: 224
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -922,10 +922,10 @@ TextureImporter:
       name: Aceras_32
       rect:
         serializedVersion: 2
-        x: 447
-        y: 303
-        width: 18
-        height: 18
+        x: 256
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -944,10 +944,10 @@ TextureImporter:
       name: Aceras_33
       rect:
         serializedVersion: 2
-        x: 479
-        y: 303
-        width: 18
-        height: 18
+        x: 288
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -966,10 +966,10 @@ TextureImporter:
       name: Aceras_34
       rect:
         serializedVersion: 2
-        x: 511
-        y: 303
-        width: 18
-        height: 18
+        x: 320
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

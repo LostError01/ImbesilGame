@@ -140,8 +140,8 @@ TextureImporter:
       name: Terreno_0
       rect:
         serializedVersion: 2
-        x: 225
-        y: 240
+        x: 16
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -162,8 +162,8 @@ TextureImporter:
       name: Terreno_1
       rect:
         serializedVersion: 2
-        x: 257
-        y: 240
+        x: 48
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -184,8 +184,8 @@ TextureImporter:
       name: Terreno_2
       rect:
         serializedVersion: 2
-        x: 289
-        y: 240
+        x: 80
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -206,8 +206,8 @@ TextureImporter:
       name: Terreno_3
       rect:
         serializedVersion: 2
-        x: 225
-        y: 208
+        x: 16
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -228,8 +228,8 @@ TextureImporter:
       name: Terreno_4
       rect:
         serializedVersion: 2
-        x: 257
-        y: 208
+        x: 48
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -250,8 +250,8 @@ TextureImporter:
       name: Terreno_5
       rect:
         serializedVersion: 2
-        x: 289
-        y: 208
+        x: 80
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -272,8 +272,8 @@ TextureImporter:
       name: Terreno_6
       rect:
         serializedVersion: 2
-        x: 225
-        y: 176
+        x: 16
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -294,8 +294,8 @@ TextureImporter:
       name: Terreno_7
       rect:
         serializedVersion: 2
-        x: 257
-        y: 176
+        x: 48
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -316,8 +316,8 @@ TextureImporter:
       name: Terreno_8
       rect:
         serializedVersion: 2
-        x: 289
-        y: 176
+        x: 80
+        y: 16
         width: 16
         height: 16
       alignment: 0

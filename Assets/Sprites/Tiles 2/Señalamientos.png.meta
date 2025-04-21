@@ -143,12 +143,12 @@ TextureImporter:
       name: "Se\xF1alamientos_0"
       rect:
         serializedVersion: 2
-        x: 400
-        y: 880
+        x: 32
+        y: 96
         width: 16
-        height: 13
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -165,12 +165,12 @@ TextureImporter:
       name: "Se\xF1alamientos_1"
       rect:
         serializedVersion: 2
-        x: 432
-        y: 880
+        x: 64
+        y: 96
         width: 16
-        height: 11
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -187,12 +187,12 @@ TextureImporter:
       name: "Se\xF1alamientos_2"
       rect:
         serializedVersion: 2
-        x: 464
-        y: 880
+        x: 96
+        y: 96
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -209,12 +209,12 @@ TextureImporter:
       name: "Se\xF1alamientos_3"
       rect:
         serializedVersion: 2
-        x: 497
-        y: 880
-        width: 14
-        height: 13
+        x: 128
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -231,12 +231,12 @@ TextureImporter:
       name: "Se\xF1alamientos_4"
       rect:
         serializedVersion: 2
-        x: 401
-        y: 848
-        width: 14
+        x: 32
+        y: 64
+        width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -253,12 +253,12 @@ TextureImporter:
       name: "Se\xF1alamientos_5"
       rect:
         serializedVersion: 2
-        x: 432
-        y: 848
+        x: 64
+        y: 64
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -275,12 +275,12 @@ TextureImporter:
       name: "Se\xF1alamientos_6"
       rect:
         serializedVersion: 2
-        x: 466
-        y: 848
-        width: 10
-        height: 14
+        x: 96
+        y: 64
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -297,12 +297,12 @@ TextureImporter:
       name: "Se\xF1alamientos_7"
       rect:
         serializedVersion: 2
-        x: 496
-        y: 816
-        width: 25
-        height: 32
+        x: 128
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -319,12 +319,12 @@ TextureImporter:
       name: "Se\xF1alamientos_8"
       rect:
         serializedVersion: 2
-        x: 402
-        y: 816
-        width: 12
+        x: 144
+        y: 48
+        width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -341,12 +341,12 @@ TextureImporter:
       name: "Se\xF1alamientos_9"
       rect:
         serializedVersion: 2
-        x: 434
-        y: 816
-        width: 12
+        x: 32
+        y: 32
+        width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -355,6 +355,72 @@ TextureImporter:
       bones: []
       spriteID: 7d29e9dce465a9260800000000000000
       internalID: 7105086258587538135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1alamientos_10"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90681cf534ae62146bdf9ca8617325f2
+      internalID: 800818174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1alamientos_11"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8678578822cdf44999aa8ac2b5ac4d
+      internalID: 950956573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1alamientos_12"
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788d1777100a18749b4e3b68053d2684
+      internalID: 1004348927
       vertices: []
       indices: 
       edges: []
@@ -375,6 +441,9 @@ TextureImporter:
     nameFileIdTable:
       "Se\xF1alamientos_0": -3231080307285133029
       "Se\xF1alamientos_1": -4751493720817897165
+      "Se\xF1alamientos_10": 800818174
+      "Se\xF1alamientos_11": 950956573
+      "Se\xF1alamientos_12": 1004348927
       "Se\xF1alamientos_2": 1779761990423411364
       "Se\xF1alamientos_3": -1020942780760579889
       "Se\xF1alamientos_4": 2905644455473391627
