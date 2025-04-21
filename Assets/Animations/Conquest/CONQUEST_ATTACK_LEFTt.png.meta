@@ -1,0 +1,364 @@
+fileFormatVersion: 2
+guid: 8f7154aa4d6392c4a87dfe4ff3e5149d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2254009298800883730
+    second: CONQUEST_ATTACK_LEFTt_0
+  - first:
+      213: 2338324255240008333
+    second: CONQUEST_ATTACK_LEFTt_1
+  - first:
+      213: 1207885487303587335
+    second: CONQUEST_ATTACK_LEFTt_2
+  - first:
+      213: 8190883994466975075
+    second: CONQUEST_ATTACK_LEFTt_3
+  - first:
+      213: 5485532067127317622
+    second: CONQUEST_ATTACK_LEFTt_4
+  - first:
+      213: -3810983620030582007
+    second: CONQUEST_ATTACK_LEFTt_5
+  - first:
+      213: -4860819856607728051
+    second: CONQUEST_ATTACK_LEFTt_6
+  - first:
+      213: 896331559474469571
+    second: CONQUEST_ATTACK_LEFTt_7
+  - first:
+      213: 2561357415817148706
+    second: CONQUEST_ATTACK_LEFTt_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 284
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CONQUEST_ATTACK_LEFTt_0
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 749
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7cb882c7628b0e0800000000000000
+      internalID: -2254009298800883730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONQUEST_ATTACK_LEFTt_1
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 199
+        width: 572
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82b24b6585637020800000000000000
+      internalID: 2338324255240008333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONQUEST_ATTACK_LEFTt_2
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 199
+        width: 422
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7067418737543c010800000000000000
+      internalID: 1207885487303587335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONQUEST_ATTACK_LEFTt_3
+      rect:
+        serializedVersion: 2
+        x: 3129
+        y: 199
+        width: 342
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36df2a6889ddba170800000000000000
+      internalID: 8190883994466975075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONQUEST_ATTACK_LEFTt_4
+      rect:
+        serializedVersion: 2
+        x: 4419
+        y: 209
+        width: 332
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6745329f956802c40800000000000000
+      internalID: 5485532067127317622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONQUEST_ATTACK_LEFTt_5
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 39
+        width: 172
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 903be3bc69aac1bc0800000000000000
+      internalID: -3810983620030582007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONQUEST_ATTACK_LEFTt_6
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 39
+        width: 172
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e2bb91816ea8cb0800000000000000
+      internalID: -4860819856607728051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONQUEST_ATTACK_LEFTt_7
+      rect:
+        serializedVersion: 2
+        x: 3209
+        y: 39
+        width: 172
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca927bedc8607c00800000000000000
+      internalID: 896331559474469571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONQUEST_ATTACK_LEFTt_8
+      rect:
+        serializedVersion: 2
+        x: 4489
+        y: 39
+        width: 172
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 229f790cff4cb8320800000000000000
+      internalID: 2561357415817148706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CONQUEST_ATTACK_LEFTt_0: -2254009298800883730
+      CONQUEST_ATTACK_LEFTt_1: 2338324255240008333
+      CONQUEST_ATTACK_LEFTt_2: 1207885487303587335
+      CONQUEST_ATTACK_LEFTt_3: 8190883994466975075
+      CONQUEST_ATTACK_LEFTt_4: 5485532067127317622
+      CONQUEST_ATTACK_LEFTt_5: -3810983620030582007
+      CONQUEST_ATTACK_LEFTt_6: -4860819856607728051
+      CONQUEST_ATTACK_LEFTt_7: 896331559474469571
+      CONQUEST_ATTACK_LEFTt_8: 2561357415817148706
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
