@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -69.94, y: 3.46}
+  m_AnchoredPosition: {x: -31, y: 3.46}
   m_SizeDelta: {x: 860.12, y: 125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2109412440059598435
@@ -66,19 +66,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 6a3a7e598f04fc643a8c9714f5de293e, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT
+  m_Text: Mark, Conquest te quiere verguear
 --- !u!1 &4001200976643948107
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,7 +318,7 @@ RectTransform:
   m_GameObject: {fileID: 8340973988061091656}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.241253, y: 1.2051, z: 1.2051}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7604926100293776877}

@@ -41,7 +41,7 @@ BlendTree:
     m_DirectBlendParameter: R_Horizontal
     m_Mirror: 0
   m_BlendParameter: R_Horizontal
-  m_BlendParameterY: R_Horizontal
+  m_BlendParameterY: R_Vertical
   m_MinThreshold: 0
   m_MaxThreshold: 1
   m_UseAutomaticThresholds: 1
