@@ -16,6 +16,11 @@ public class Enemy : MonoBehaviour
     //Instancias
     public string idEnemigo;
 
+    //Strings
+    public string Horizontal = "E_Horizontal";
+    public string Vertical = "E_Vertical";
+    public string Walking = "E_Walking";
+
     private void Start()
     {
         // Si este enemigo ya fue destruido, eliminarse inmediatamente
@@ -42,13 +47,13 @@ public class Enemy : MonoBehaviour
         //Variables para la animacion
         if (direccion != Vector2.zero && isChasing == true)
         {
-            animEnemy.SetFloat("E_Horizontal", direccion.x);
-            animEnemy.SetFloat("E_Vertical", direccion.y);
-            animEnemy.SetBool("E_Walking", true);
+            animEnemy.SetFloat(Horizontal, direccion.x);
+            animEnemy.SetFloat(Vertical, direccion.y);
+            animEnemy.SetBool(Walking, true);
         }
         else
         {
-            animEnemy.SetBool("E_Walking", false);
+            animEnemy.SetBool(Walking, false);
         }
 
         if (isChasing == true)

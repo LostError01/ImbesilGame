@@ -460,7 +460,10 @@ MonoBehaviour:
   playerTarget: {fileID: 1162750685}
   vel: 1
   transition: {fileID: 1757539684}
-  idEnemigo: Enemy01
+  idEnemigo: Enemy03
+  Horizontal: R_Horizontal
+  Vertical: R_Vertical
+  Walking: R_Walking
 --- !u!95 &12732433
 Animator:
   serializedVersion: 7
@@ -9128,7 +9131,10 @@ MonoBehaviour:
   playerTarget: {fileID: 1162750685}
   vel: 1
   transition: {fileID: 1757539684}
-  idEnemigo: Enemy01
+  idEnemigo: Enemy04
+  Horizontal: R_Horizontal
+  Vertical: R_Vertical
+  Walking: R_Walking
 --- !u!95 &1178157242
 Animator:
   serializedVersion: 7
@@ -63715,7 +63721,10 @@ MonoBehaviour:
   playerTarget: {fileID: 1162750685}
   vel: 1
   transition: {fileID: 1757539684}
-  idEnemigo: Enemy01
+  idEnemigo: Enemy02
+  Horizontal: R_Horizontal
+  Vertical: R_Vertical
+  Walking: R_Walking
 --- !u!1001 &4113546696330873497
 PrefabInstance:
   m_ObjectHideFlags: 0
