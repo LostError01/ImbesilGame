@@ -3917,7 +3917,7 @@ MonoBehaviour:
   sliderEnemigo: {fileID: 920245151}
   animEnemigo: {fileID: 1234682511}
   jugadorEmpieza: 1
-  escenaVictoria: SampleScene
+  escenaVictoria: Ciudad Level
   escenaGameOver: GameOver
   currentScene: BattleScene
   sceneTransition: {fileID: 1204757801}
@@ -4051,7 +4051,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -269.21976}
+  m_AnchoredPosition: {x: 0, y: -241}
   m_SizeDelta: {x: 953.04, y: 181.56}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1753267350

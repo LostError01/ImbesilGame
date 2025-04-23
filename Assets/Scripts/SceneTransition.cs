@@ -24,7 +24,14 @@ public class SceneTransition : MonoBehaviour
     {
         fadeImage.enabled = true;
 
-        Debug.Log($"Iniciando fade para cargar la escena: {sceneName}");
+        Debug.Log($"Intentando cargar la escena: {sceneName}");
+
+        // Verificar si la escena existe en el Build Settings
+        if (!IsSceneInBuildSettings(sceneName))
+        {
+            Debug.LogError($"La escena '{sceneName}' no está en el Build Settings. No se puede cargar.");
+            yield break; // Detener la ejecución
+        }
 
         // Fade a negro
         fadeImage.CrossFadeAlpha(1f, fadeSpeed, false);
@@ -33,5 +40,20 @@ public class SceneTransition : MonoBehaviour
         // Cargar la escena
         Debug.Log($"Cargando escena: {sceneName}");
         SceneManager.LoadScene(sceneName);
+    }
+
+    // Método auxiliar para verificar si una escena está en el Build Settings
+    private bool IsSceneInBuildSettings(string sceneName)
+    {
+        for (int i = 0; i < SceneManager.sceneCountInBuildSettings; i++)
+        {
+            string scenePath = SceneUtility.GetScenePathByBuildIndex(i);
+            string sceneNameInBuild = System.IO.Path.GetFileNameWithoutExtension(scenePath);
+            if (sceneNameInBuild == sceneName)
+            {
+                return true;
+            }
+        }
+        return false;
     }
 }
