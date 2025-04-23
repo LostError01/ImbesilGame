@@ -278,9 +278,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1394911462}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e15ec2990dc85464999288cc22d6170b, type: 3}
+  m_Script: {fileID: 11500000, guid: 808269c2eab36fc47a8127eb64b4156b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentLevel: Ciudad Level
 --- !u!4 &1394911464
 Transform:
   m_ObjectHideFlags: 0
