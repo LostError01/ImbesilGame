@@ -4,32 +4,43 @@ using UnityEngine;
 public class EnemyManager : MonoBehaviour
 {
     public static EnemyManager Instance;
-    public static EnemyManager ObjInstance;
+
+    // Listas para gestionar enemigos y objetos
     public HashSet<string> enemigosDestruidos = new HashSet<string>();
     public HashSet<string> objetosDestruidos = new HashSet<string>();
 
+    // Variables para el jefe final
+    [SerializeField] private GameObject bossPrefab; // Prefab del jefe final
+    [SerializeField] private Transform bossSpawnPoint; // Punto donde aparecerá el jefe
+
+    private bool bossSpawned = false; // Indica si el jefe ya ha sido spawneado
+
     void Awake()
     {
-        //Enemigos
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject); // Persistir entre escenas
+            DontDestroyOnLoad(gameObject);
         }
         else
         {
             Destroy(gameObject);
         }
+    }
 
-        //Objetos
-        if (ObjInstance == null)
+    public void CheckForBossSpawn()
+    {
+        if (enemigosDestruidos.Count >= 3 && !bossSpawned && bossPrefab != null && bossSpawnPoint != null)
         {
-            ObjInstance = this;
-            DontDestroyOnLoad(gameObject); // Persistir entre escenas
+            Instantiate(bossPrefab, bossSpawnPoint.position, Quaternion.identity);
+            bossSpawned = true;
         }
-        else
-        {
-            Destroy(gameObject);
-        }
+    }
+
+    public void ResetGame()
+    {
+        enemigosDestruidos.Clear();
+        objetosDestruidos.Clear();
+        bossSpawned = false;
     }
 }

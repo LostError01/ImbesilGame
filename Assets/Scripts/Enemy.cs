@@ -13,16 +13,33 @@ public class Enemy : MonoBehaviour
 
     public SceneTransition transition;
 
-    //Instancias
+    // Instancias
     public string idEnemigo;
 
-    //Strings
+    // Escena de combate específica para este enemigo
+    public string battleSceneName; // Nombre de la escena de combate
+
+    // Strings para el Animator
     public string Horizontal = "E_Horizontal";
     public string Vertical = "E_Vertical";
     public string Walking = "E_Walking";
 
     private void Start()
     {
+        // Buscar al jugador automáticamente si no está asignado
+        if (playerTarget == null)
+        {
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            if (player != null)
+            {
+                playerTarget = player.transform;
+            }
+            else
+            {
+                Debug.LogError("No se encontró un jugador con el tag 'Player'.");
+            }
+        }
+
         // Si este enemigo ya fue destruido, eliminarse inmediatamente
         if (EnemyManager.Instance.enemigosDestruidos.Contains(idEnemigo) && Movimiento.Perder == false)
         {
@@ -36,29 +53,37 @@ public class Enemy : MonoBehaviour
         if (gameObject.scene.isLoaded && Movimiento.Perder == false)
         {
             EnemyManager.Instance.enemigosDestruidos.Add(idEnemigo);
+
+            // Verificar si se debe spawnear al jefe final
+            EnemyManager.Instance.CheckForBossSpawn();
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector2 direccion = (playerTarget.position - transform.position).normalized;
-
-        //Variables para la animacion
-        if (direccion != Vector2.zero && isChasing == true)
+        if (playerTarget == null)
         {
+            Debug.LogWarning("El jugador no está asignado. Verifica el campo Player Target.");
+            return;
+        }
+
+        if (isChasing)
+        {
+            Vector2 direccion = (playerTarget.position - transform.position).normalized;
+
+            // Variables para la animación
             animEnemy.SetFloat(Horizontal, direccion.x);
             animEnemy.SetFloat(Vertical, direccion.y);
             animEnemy.SetBool(Walking, true);
+
+            // Mover al enemigo
+            rbEnemy.linearVelocity = new Vector2(direccion.x, direccion.y) * vel;
         }
         else
         {
             animEnemy.SetBool(Walking, false);
-        }
-
-        if (isChasing == true)
-        {
-            rbEnemy.linearVelocity = new Vector2(direccion.x, direccion.y) * vel;
+            rbEnemy.linearVelocity = Vector2.zero;
         }
     }
 
@@ -66,17 +91,10 @@ public class Enemy : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            if (playerTarget == null)
-            {
-                playerTarget = collision.transform;
-            }
+            // Activar la persecución cuando el jugador entra en el rango
             isChasing = true;
-        }
 
-        if (collision.gameObject.CompareTag("AreaAttack"))
-        {
-            rbEnemy.linearVelocity = Vector2.zero;
-            isChasing = false;
+            Debug.Log("El jugador ha entrado en el rango del enemigo. Activando persecución.");
         }
     }
 
@@ -84,8 +102,11 @@ public class Enemy : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            rbEnemy.linearVelocity = Vector2.zero;
+            // Desactivar la persecución cuando el jugador sale del rango
             isChasing = false;
+            rbEnemy.linearVelocity = Vector2.zero;
+
+            Debug.Log("El jugador ha salido del rango del enemigo. Deteniendo persecución.");
         }
     }
 
@@ -93,12 +114,47 @@ public class Enemy : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            rbEnemy.linearVelocity = Vector2.zero;
+            // Detener al enemigo cuando el jugador entra en contacto
+            if (rbEnemy != null)
+            {
+                rbEnemy.linearVelocity = Vector2.zero;
+            }
+
             isChasing = false;
-            //Destruir el objeto del enemigo
+
+            // Guardar el nombre del nivel actual
+            if (GameManager.Instance != null)
+            {
+                string currentLevel = SceneManager.GetActiveScene().name;
+                GameManager.Instance.currentLevel = currentLevel;
+            }
+            else
+            {
+                Debug.LogError("GameManager.Instance es nulo. Asegúrate de tener un objeto con el script GameManager en la escena.");
+            }
+
+            // Registrar el enemigo como derrotado
+            if (gameObject.scene.isLoaded && Movimiento.Perder == false)
+            {
+                EnemyManager.Instance.enemigosDestruidos.Add(idEnemigo);
+
+                // Verificar si se debe spawnear al jefe final
+                EnemyManager.Instance.CheckForBossSpawn();
+            }
+
+            // Destruir el objeto del enemigo
             Destroy(gameObject);
 
-            transition.LoadSceneWithFade("BattleScene");
+            // Iniciar la transición a la escena de combate asignada
+            if (!string.IsNullOrEmpty(battleSceneName) && transition != null)
+            {
+                Debug.Log($"Cargando escena de combate: {battleSceneName}");
+                transition.LoadSceneWithFade(battleSceneName);
+            }
+            else
+            {
+                Debug.LogError("La escena de combate no está asignada o el componente SceneTransition es nulo.");
+            }
         }
     }
 }

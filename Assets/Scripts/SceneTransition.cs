@@ -10,9 +10,11 @@ public class SceneTransition : MonoBehaviour
 
     private void Start()
     {
+        // Inicializar la imagen de fade con opacidad 0
         fadeImage.canvasRenderer.SetAlpha(0f);
     }
 
+    // Método público para cargar una escena con fade
     public void LoadSceneWithFade(string sceneName)
     {
         StartCoroutine(FadeAndLoad(sceneName));
@@ -22,11 +24,14 @@ public class SceneTransition : MonoBehaviour
     {
         fadeImage.enabled = true;
 
+        Debug.Log($"Iniciando fade para cargar la escena: {sceneName}");
+
         // Fade a negro
         fadeImage.CrossFadeAlpha(1f, fadeSpeed, false);
         yield return new WaitForSeconds(fadeSpeed);
 
         // Cargar la escena
+        Debug.Log($"Cargando escena: {sceneName}");
         SceneManager.LoadScene(sceneName);
     }
 }

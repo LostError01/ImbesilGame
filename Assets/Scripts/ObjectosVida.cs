@@ -11,7 +11,7 @@ public class ObjectosVida : MonoBehaviour
     private void Start()
     {
         // Si este objeto ya fue destruido, eliminarse inmediatamente
-        if (EnemyManager.ObjInstance.objetosDestruidos.Contains(idObjeto) && Movimiento.Perder)
+        if (EnemyManager.Instance.objetosDestruidos.Contains(idObjeto) && Movimiento.Perder)
         {
             Destroy(gameObject);
         }
@@ -25,7 +25,7 @@ public class ObjectosVida : MonoBehaviour
         // Si el objeto se destruye manualmente (no por cambio de escena), registrar su ID
         if (gameObject.scene.isLoaded && Movimiento.Perder)
         {
-            EnemyManager.ObjInstance.objetosDestruidos.Add(idObjeto);
+            EnemyManager.Instance.objetosDestruidos.Add(idObjeto);
         }
     }
 
