@@ -3914,6 +3914,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vidaPlayer: {fileID: 2143383812}
   animPlayer: {fileID: 514028253}
+  vidaMaxEnemigo: 2
   sliderEnemigo: {fileID: 920245151}
   animEnemigo: {fileID: 1234682511}
   jugadorEmpieza: 1

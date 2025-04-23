@@ -12,8 +12,9 @@ public class Combate : MonoBehaviour
     private bool isDefendingPlayer = false;
 
     // Enemigo
-    private float vidaMaxEnemigo = 100f;
-    private float vidaEnemigo = 100f;
+    [Header("Configuración del Enemigo")]
+    public float vidaMaxEnemigo = 100f; // Vida máxima del enemigo
+    private float vidaEnemigo;
     public Slider sliderEnemigo;
     public Animator animEnemigo;
     private bool isDefendingEnemigo = false;
@@ -22,7 +23,7 @@ public class Combate : MonoBehaviour
     public bool jugadorEmpieza;
     private bool isPlayerTurn;
 
-    //Escenas
+    // Escenas
     public string escenaVictoria; // Nombre de la escena al derrotar al enemigo
     public string escenaGameOver; // Nombre de la escena al morir el jugador
     public string currentScene; // Referencia a la escena actual
@@ -30,11 +31,13 @@ public class Combate : MonoBehaviour
 
     void Start()
     {
-        // Inicialización de vida
+        // Inicialización de vida del jugador
         vidaMax = VidasJugador.vidaMaxima;
         vidaPlayer.maxValue = vidaMax;
         vidaPlayer.value = VidasJugador.vida;
 
+        // Inicialización de vida del enemigo
+        vidaEnemigo = vidaMaxEnemigo;
         sliderEnemigo.maxValue = vidaMaxEnemigo;
         sliderEnemigo.value = vidaEnemigo;
 
@@ -44,7 +47,7 @@ public class Combate : MonoBehaviour
             jugadorEmpieza = true;
             isPlayerTurn = jugadorEmpieza;
         }
-        if(currentScene == "BattleScene")
+        else if (currentScene == "BattleScene")
         {
             jugadorEmpieza = false;
             isPlayerTurn = jugadorEmpieza;
@@ -79,7 +82,7 @@ public class Combate : MonoBehaviour
         // Simular animación de ataque
         yield return new WaitForSeconds(0.5f);
 
-        float damage = Random.Range(10f,20f);
+        float damage = Random.Range(10f, 20f);
 
         AplicarDaño(ref vidaEnemigo, damage, ref isDefendingEnemigo, sliderEnemigo);
 
@@ -122,7 +125,7 @@ public class Combate : MonoBehaviour
             float damage = Random.Range(5f, 15f);
             AplicarDaño(ref VidasJugador.vida, damage, ref isDefendingPlayer, vidaPlayer);
 
-            //Verificar muerte de jugador
+            // Verificar muerte de jugador
             if (VidasJugador.vida <= 0)
             {
                 sceneTransition.LoadSceneWithFade(escenaGameOver);
@@ -144,15 +147,14 @@ public class Combate : MonoBehaviour
     }
 
     // Método universal para aplicar daño
-    void AplicarDaño(ref float vida, float dañoBase,
-                    ref bool defensaActiva, Slider slider)
+    void AplicarDaño(ref float vida, float dañoBase, ref bool defensaActiva, Slider slider)
     {
         float dañoFinal = dañoBase;
 
         // Aplicar reducción por defensa
         if (defensaActiva)
         {
-            dañoFinal = dañoFinal/2f;
+            dañoFinal /= 2f;
             defensaActiva = false; // La defensa solo dura un turno
 
             Debug.Log("Damage Defending = " + dañoFinal);
