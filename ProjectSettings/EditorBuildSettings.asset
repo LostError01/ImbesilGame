@@ -9,11 +9,23 @@ EditorBuildSettings:
     path: Assets/Scenes/Ciudad Level.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+    path: Assets/Scenes/Level 2.unity
+    guid: a406a2741ad1efc4fa30102d08e6d14a
+  - enabled: 1
+    path: Assets/Scenes/Level 3.unity
+    guid: 565265473dbb4f94c99fbd9445f30d89
+  - enabled: 1
     path: Assets/Scenes/BattleOmniMan.unity
     guid: 258be8c9165c7c74bbcf6b3ab192f943
   - enabled: 1
     path: Assets/Scenes/BattleReanimen.unity
     guid: ad75f23cc92c1e54e8d52edac6beb937
+  - enabled: 1
+    path: Assets/Scenes/BattleReanimen2.unity
+    guid: c3cda2af10c09a54b91a7b2a526c9478
+  - enabled: 1
+    path: Assets/Scenes/BattleConquest.unity
+    guid: 3a655e5455e1cb64f89d693697917aea
   - enabled: 1
     path: Assets/Scenes/BattleScene01.unity
     guid: ec211efee584848439876da50c47238f
