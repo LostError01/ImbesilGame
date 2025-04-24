@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3876898722954295669, guid: 5a81ede1d28dd844ead16b38a52c4f12, type: 3}
+      propertyPath: battleSceneName
+      value: BattleOmniMan
+      objectReference: {fileID: 0}
     - target: {fileID: 4165895858388505984, guid: 5a81ede1d28dd844ead16b38a52c4f12, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 1.6665347

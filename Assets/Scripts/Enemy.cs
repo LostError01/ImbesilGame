@@ -53,10 +53,8 @@ public class Enemy : MonoBehaviour
         if (gameObject.scene.isLoaded && Movimiento.Perder == false)
         {
             EnemyManager.Instance.enemigosDestruidos.Add(idEnemigo);
-
-            // Verificar si se debe spawnear al jefe final
-            EnemyManager.Instance.CheckForBossSpawn();
         }
+
     }
 
     // Update is called once per frame

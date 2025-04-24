@@ -9,12 +9,21 @@ public class EnemyManager : MonoBehaviour
     public HashSet<string> enemigosDestruidos = new HashSet<string>();
     public HashSet<string> objetosDestruidos = new HashSet<string>();
 
-    // Variables para el jefe final
-    [SerializeField] private GameObject bossPrefab; // Prefab del jefe final
-    [SerializeField] private Transform bossSpawnPoint; // Punto donde aparecerá el jefe
+    public static bool bossSpawned = false; // Indica si el jefe ya ha sido spawneado
 
-    private bool bossSpawned = false; // Indica si el jefe ya ha sido spawneado
+    // Enemigos destruidos
+    public int EnemigosADestruir = 3;
+    public static int EnemyCount = 0; // Contador de enemigos
 
+    private void FixedUpdate()
+    {
+        //Verificar si se ha destruido el número necesario de enemigos
+        if (EnemyCount >= EnemigosADestruir && !bossSpawned)
+        {
+            bossSpawned = true; // Evitar que el jefe se spawnee nuevamente
+            Debug.Log("bossSpawned = "+ bossSpawned);
+        }
+    }
     void Awake()
     {
         // Singleton pattern: Asegurarse de que solo exista una instancia
@@ -26,67 +35,9 @@ public class EnemyManager : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("Se detectó una segunda instancia de EnemyManager. Destruyendo...");
+            Debug.LogWarning("Se detectó una segunda instancia de EnemyManager. Destruyendo..." + EnemyCount);
             Destroy(gameObject);
-        }
-    }
-
-    void OnEnable()
-    {
-        // Buscar dinámicamente el BossSpawnPoint en la escena actual
-        GameObject bossSpawnObject = GameObject.Find("BossSpawnPoint");
-        if (bossSpawnObject != null)
-        {
-            bossSpawnPoint = bossSpawnObject.transform;
-            Debug.Log("BossSpawnPoint encontrado y asignado correctamente.");
-        }
-        else
-        {
-            Debug.LogError("No se encontró ningún GameObject llamado 'BossSpawnPoint' en la escena.");
-        }
-    }
-
-    public void CheckForBossSpawn()
-    {
-        // Validar que el prefab y el punto de spawn estén asignados
-        if (bossPrefab == null)
-        {
-            Debug.LogError("El prefab del jefe final no está asignado en el EnemyManager.");
-            return;
-        }
-
-        if (bossSpawnPoint == null)
-        {
-            Debug.LogError("El punto de spawn del jefe final no está asignado en el EnemyManager.");
-            return;
-        }
-
-        // Verificar si se han derrotado los 3 enemigos y si el jefe aún no ha sido spawneado
-        if (enemigosDestruidos.Count >= 3 && !bossSpawned)
-        {
-            Debug.Log("Todos los enemigos han sido derrotados. Spawneando al jefe final.");
-
-            // Instanciar al jefe final en la posición especificada
-            Instantiate(bossPrefab, bossSpawnPoint.position, Quaternion.identity);
-
-            // Marcar que el jefe ha sido spawneado
-            bossSpawned = true;
-        }
-        else
-        {
-            Debug.LogWarning($"Aún faltan enemigos por derrotar. Derrotados: {enemigosDestruidos.Count}, Total necesario: 3");
-        }
-    }
-    public void AssignBossSpawnPoint(Transform spawnPoint)
-    {
-        if (spawnPoint != null)
-        {
-            bossSpawnPoint = spawnPoint;
-            Debug.Log("BossSpawnPoint asignado dinámicamente desde el BossSpawnPointManager.");
-        }
-        else
-        {
-            Debug.LogError("El BossSpawnPoint proporcionado es nulo.");
+            EnemyCount++;
         }
     }
     public void ResetGame()
