@@ -3320,7 +3320,7 @@ MonoBehaviour:
   sliderEnemigo: {fileID: 920245151}
   animEnemigo: {fileID: 1234682511}
   jugadorEmpieza: 1
-  escenaVictoria: Ciudad Level
+  escenaVictoria: Win
   escenaGameOver: GameOver
   currentScene: BattleScene
   sceneTransition: {fileID: 1204757801}

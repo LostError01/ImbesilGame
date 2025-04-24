@@ -21,14 +21,23 @@ EditorBuildSettings:
     path: Assets/Scenes/BattleReanimen.unity
     guid: ad75f23cc92c1e54e8d52edac6beb937
   - enabled: 1
-    path: Assets/Scenes/BattleReanimen2.unity
-    guid: c3cda2af10c09a54b91a7b2a526c9478
-  - enabled: 1
     path: Assets/Scenes/BattleConquest.unity
     guid: 3a655e5455e1cb64f89d693697917aea
   - enabled: 1
+    path: Assets/Scenes/BattleReanimen2.unity
+    guid: c3cda2af10c09a54b91a7b2a526c9478
+  - enabled: 1
+    path: Assets/Scenes/ReanimenBoss.unity
+    guid: 9e1147272a9b7df4ba6228f699415ec0
+  - enabled: 1
+    path: Assets/Scenes/BattleGlobe.unity
+    guid: a114d555d802acc4993f2d841e3d1991
+  - enabled: 1
     path: Assets/Scenes/BattleScene01.unity
     guid: ec211efee584848439876da50c47238f
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: 030fb72a2c1cfa048af0f2b6309ae958
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 2d8611e405fef7944a68aec64d2d3808
