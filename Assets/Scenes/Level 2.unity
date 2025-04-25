@@ -701,11 +701,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6779500615848064798, guid: 90b8949eb5e9ae44d84ba6dfbd1c4a28, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.4945168
+      value: 37.98
       objectReference: {fileID: 0}
     - target: {fileID: 6779500615848064798, guid: 90b8949eb5e9ae44d84ba6dfbd1c4a28, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.8158729
+      value: 13.66
       objectReference: {fileID: 0}
     - target: {fileID: 6779500615848064798, guid: 90b8949eb5e9ae44d84ba6dfbd1c4a28, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1186,6 +1186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 238626478}
   - component: {fileID: 238626477}
+  - component: {fileID: 238626479}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1221,6 +1222,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &238626479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238626476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f00a2a0ceebc1c2429976f6f5ab32672, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicaFondo: {fileID: 8300000, guid: 242f817db430c464f9c2b2b56daa995d, type: 3}
+  volumenMaximo: 0.8
+  duracionFade: 1
 --- !u!1 &248043957
 GameObject:
   m_ObjectHideFlags: 0

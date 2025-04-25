@@ -93914,6 +93914,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1899317069}
   - component: {fileID: 1899317068}
+  - component: {fileID: 1899317070}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -93949,6 +93950,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1899317070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899317067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f00a2a0ceebc1c2429976f6f5ab32672, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicaFondo: {fileID: 8300000, guid: 8ce70fb0c70827743b91688678d9754c, type: 3}
+  volumenMaximo: 0.8
+  duracionFade: 1
 --- !u!1001 &1925025275
 PrefabInstance:
   m_ObjectHideFlags: 0
