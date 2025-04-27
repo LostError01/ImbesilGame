@@ -1,39 +1,31 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Destroy : MonoBehaviour
+public class DestruirObj : MonoBehaviour
 {
-    public string destroyState;//nombre
-    public float timeForDisable;//tiempo desactiva collider
-    Animator anim;
-    void Start()
+    public static Animator rockAnimator;
+
+    private void Start()
     {
-        anim = GetComponent<Animator>();
+        rockAnimator = GetComponent<Animator>();
     }
-    IEnumerator OnTriggerEnter2D(Collider2D col)
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (col.tag == "Attack")// circle collider 2D
+        // Verificar si el objeto colisionado tiene la etiqueta "Player"
+        if (collision.CompareTag("AreaAttack"))
         {
-            anim.Play(destroyState);
-            yield return new WaitForSeconds
-            (timeForDisable);
-            foreach
-            (Collider2D collider in
-            GetComponents<Collider2D>())
-            {
-                collider.enabled = false; //quitar collider
-            }
+            // Destruir el objeto al que este script está adjunto
+            rockAnimator.SetTrigger("Destruir");
+            StartCoroutine(DestruirRoca());
         }
     }
-    void Update()
+
+    IEnumerator DestruirRoca()
     {
-        AnimatorStateInfo stateInfo =
-        anim.GetCurrentAnimatorStateInfo(0);
-        if (stateInfo.IsName(destroyState)
-        && stateInfo.normalizedTime >= 1)
-        {
-            Destroy(gameObject);
-        }
+        // Esperar el tiempo especificado
+        yield return new WaitForSeconds(0.5f);
+        // Destruir el objeto
+        Destroy(gameObject);
     }
-}    
+}
