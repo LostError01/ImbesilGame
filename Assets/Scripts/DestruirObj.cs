@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class DestruirObj : MonoBehaviour
 {
-    public static Animator rockAnimator;
+    private Animator rockAnimator;
 
     private void Start()
     {
@@ -16,7 +16,7 @@ public class DestruirObj : MonoBehaviour
         if (collision.CompareTag("AreaAttack"))
         {
             // Destruir el objeto al que este script está adjunto
-            rockAnimator.SetTrigger("Destruir");
+            rockAnimator.SetTrigger("Destruido");
             StartCoroutine(DestruirRoca());
         }
     }

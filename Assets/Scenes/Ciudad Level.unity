@@ -70215,6 +70215,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3572311343610057709, guid: afb130b2f6a2db54395b8212e13e7478, type: 3}
+      propertyPath: m_Radius
+      value: 0.46036887
+      objectReference: {fileID: 0}
+    - target: {fileID: 3572311343610057709, guid: afb130b2f6a2db54395b8212e13e7478, type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
