@@ -3227,7 +3227,7 @@ MonoBehaviour:
   sliderEnemigo: {fileID: 920245151}
   animEnemigo: {fileID: 1236012059}
   jugadorEmpieza: 1
-  escenaVictoria: 'Win '
+  escenaVictoria: Win
   escenaGameOver: GameOver
   currentScene: BattleScene
   sceneTransition: {fileID: 1204757801}

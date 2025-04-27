@@ -95607,7 +95607,7 @@ PrefabInstance:
       objectReference: {fileID: 1162750685}
     - target: {fileID: 6945607288347154761, guid: a12fbb4ffd5b3bb4fa4097e8eb910ffe, type: 3}
       propertyPath: battleSceneName
-      value: ReanimenBoss
+      value: Win
       objectReference: {fileID: 0}
     - target: {fileID: 7817826640021714364, guid: a12fbb4ffd5b3bb4fa4097e8eb910ffe, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
