@@ -3223,11 +3223,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vidaPlayer: {fileID: 2143383812}
   animPlayer: {fileID: 514028253}
-  vidaMaxEnemigo: 800
+  vidaMaxEnemigo: 155
   sliderEnemigo: {fileID: 920245151}
   animEnemigo: {fileID: 1236012059}
   jugadorEmpieza: 1
-  escenaVictoria: Ciudad Level
+  escenaVictoria: 'Win '
   escenaGameOver: GameOver
   currentScene: BattleScene
   sceneTransition: {fileID: 1204757801}
@@ -3260,7 +3260,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sonidoClic: {fileID: 8300000, guid: 1d7c878f7ea09ee4c9ca57802e22d092, type: 3}
   sonidoHover: {fileID: 8300000, guid: 12ad719a4a00c7147ad0b81d03c8005f, type: 3}
-  musicaFondo: {fileID: 8300000, guid: c0b036f4965efdf4d9099f8cafd7dd27, type: 3}
+  musicaFondo: {fileID: 0}
   volumenSonidos: 1
   volumenMusica: 0.5
 --- !u!1 &1445010978

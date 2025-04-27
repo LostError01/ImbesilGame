@@ -456,7 +456,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sonidoClic: {fileID: 8300000, guid: 1d7c878f7ea09ee4c9ca57802e22d092, type: 3}
   sonidoHover: {fileID: 8300000, guid: 12ad719a4a00c7147ad0b81d03c8005f, type: 3}
-  musicaFondo: {fileID: 0}
+  musicaFondo: {fileID: 8300000, guid: 747371ad6e11e2942a9dba047a6f0dca, type: 3}
   volumenSonidos: 0.515
   volumenMusica: 0.238
 --- !u!1 &1563674010

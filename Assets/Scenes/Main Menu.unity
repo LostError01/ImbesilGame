@@ -641,6 +641,7 @@ GameObject:
   - component: {fileID: 948566572}
   - component: {fileID: 948566571}
   - component: {fileID: 948566570}
+  - component: {fileID: 948566574}
   m_Layer: 0
   m_Name: MainMenu
   m_TagString: Untagged
@@ -706,6 +707,47 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &948566574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948566569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f00a2a0ceebc1c2429976f6f5ab32672, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicasPorEscena:
+  - nombreEscena: Main Menu
+    musicaEscena: {fileID: 8300000, guid: ec99ab86bd283054aacf1cb3afdb498b, type: 3}
+  - nombreEscena: Ciudad Level
+    musicaEscena: {fileID: 8300000, guid: ad0b3e6c0f61a444baf2a80825407ed9, type: 3}
+  - nombreEscena: BattleReanimen
+    musicaEscena: {fileID: 8300000, guid: 173b7b4625b93624abe70306be97073c, type: 3}
+  - nombreEscena: BattleOmniMan
+    musicaEscena: {fileID: 8300000, guid: b2aa832d87b590649918d69ab87d9e6e, type: 3}
+  - nombreEscena: Level 2
+    musicaEscena: {fileID: 8300000, guid: 242f817db430c464f9c2b2b56daa995d, type: 3}
+  - nombreEscena: BattleReanimen2
+    musicaEscena: {fileID: 8300000, guid: 173b7b4625b93624abe70306be97073c, type: 3}
+  - nombreEscena: BattleConquest
+    musicaEscena: {fileID: 8300000, guid: eaac44695df3b264fbb29370fe49ae57, type: 3}
+  - nombreEscena: Level 3
+    musicaEscena: {fileID: 8300000, guid: 8ce70fb0c70827743b91688678d9754c, type: 3}
+  - nombreEscena: BattleGlobe
+    musicaEscena: {fileID: 8300000, guid: 173b7b4625b93624abe70306be97073c, type: 3}
+  - nombreEscena: ReanimenBoss
+    musicaEscena: {fileID: 8300000, guid: c0b036f4965efdf4d9099f8cafd7dd27, type: 3}
+  - nombreEscena: Win
+    musicaEscena: {fileID: 8300000, guid: ec99ab86bd283054aacf1cb3afdb498b, type: 3}
+  - nombreEscena: GameOver
+    musicaEscena: {fileID: 8300000, guid: 747371ad6e11e2942a9dba047a6f0dca, type: 3}
+  - nombreEscena: 
+    musicaEscena: {fileID: 0}
+  volumenMaximo: 0.614
+  duracionFade: 1
 --- !u!1 &1501954973
 GameObject:
   m_ObjectHideFlags: 0

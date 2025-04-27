@@ -1,11 +1,19 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System.Collections; // Agregar esta directiva para usar IEnumerator
+using System.Collections;
 
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager instance; // Instancia única para acceder desde otros scripts
-    public AudioClip musicaFondo; // Música de fondo principal
+
+    [System.Serializable]
+    public class EscenaConMusica
+    {
+        public string nombreEscena; // Nombre de la escena
+        public AudioClip musicaEscena; // Música específica para esta escena
+    }
+
+    public EscenaConMusica[] musicasPorEscena; // Lista de escenas con sus respectivas músicas
     private AudioSource fuenteDeMusica; // Componente AudioSource para la música
 
     private AudioClip ultimaMusicaReproducida; // Almacena la última música reproducida
@@ -38,12 +46,37 @@ public class AudioManager : MonoBehaviour
         fuenteDeMusica.loop = true; // Activar bucle para la música
         fuenteDeMusica.playOnAwake = false;
         fuenteDeMusica.volume = 0f; // Comenzar con volumen en 0 para el fade-in
+    }
 
-        // Reproducir la música de fondo si está asignada
-        if (musicaFondo != null)
+    // Método que se ejecuta automáticamente cuando se carga una nueva escena
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        // Buscar la música correspondiente a la escena cargada
+        AudioClip musicaParaEscena = ObtenerMusicaParaEscena(scene.name);
+
+        if (musicaParaEscena != null)
         {
-            CambiarMusica(musicaFondo);
+            debeReproducirMusica = true;
+            CambiarMusica(musicaParaEscena); // Reproducir la música específica para esta escena
         }
+        else
+        {
+            debeReproducirMusica = false;
+            DetenerMusica(); // Detener la música si no hay música asignada para esta escena
+        }
+    }
+
+    // Método para obtener la música correspondiente a una escena
+    private AudioClip ObtenerMusicaParaEscena(string nombreEscena)
+    {
+        foreach (var escenaConMusica in musicasPorEscena)
+        {
+            if (escenaConMusica.nombreEscena == nombreEscena && escenaConMusica.musicaEscena != null)
+            {
+                return escenaConMusica.musicaEscena;
+            }
+        }
+        return null; // No se encontró música para esta escena
     }
 
     // Método para cambiar la música de fondo
@@ -64,39 +97,6 @@ public class AudioManager : MonoBehaviour
             StopAllCoroutines(); // Detener cualquier fade en curso
             StartCoroutine(FadeOut()); // Detener música con fade
         }
-    }
-
-    // Método que se ejecuta automáticamente cuando se carga una nueva escena
-    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
-        // Verificar si la escena actual es una de las permitidas para reproducir música
-        if (EsEscenaPermitida(scene.name))
-        {
-            debeReproducirMusica = true;
-            if (ultimaMusicaReproducida != null)
-            {
-                CambiarMusica(ultimaMusicaReproducida); // Reanudar la última música con fade
-            }
-        }
-        else
-        {
-            debeReproducirMusica = false;
-            DetenerMusica(); // Detener la música con fade
-        }
-    }
-
-    // Método para verificar si la escena actual está en la lista permitida
-    private bool EsEscenaPermitida(string nombreEscena)
-    {
-        string[] escenasPermitidas = { "Ciudad Level", "Level 2", "Level 3" };
-        foreach (string escena in escenasPermitidas)
-        {
-            if (nombreEscena == escena)
-            {
-                return true;
-            }
-        }
-        return false;
     }
 
     // Corrutina para realizar un fade-in

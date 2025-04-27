@@ -20,9 +20,9 @@ public class Enemy2 : MonoBehaviour
     public string battleSceneName; // Nombre de la escena de combate
 
     // Strings para el Animator
-    public string Horizontal = "E_Horizontal";
-    public string Vertical = "E_Vertical";
-    public string Walking = "E_Walking";
+    public string Horizontal = "C_Horizontal";
+    public string Vertical = "C_Vertical";
+    public string Walking = "C_Walking";
 
     private void Start()
     {

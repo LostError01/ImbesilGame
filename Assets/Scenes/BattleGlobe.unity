@@ -3317,11 +3317,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vidaPlayer: {fileID: 2143383812}
   animPlayer: {fileID: 514028253}
-  vidaMaxEnemigo: 50
+  vidaMaxEnemigo: 100
   sliderEnemigo: {fileID: 920245151}
   animEnemigo: {fileID: 1234682511}
   jugadorEmpieza: 1
-  escenaVictoria: Win
+  escenaVictoria: Level 3
   escenaGameOver: GameOver
   currentScene: BattleScene
   sceneTransition: {fileID: 1204757801}
