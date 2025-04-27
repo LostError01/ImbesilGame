@@ -10,6 +10,7 @@ TagManager:
   - EnemyLife
   - NPC
   - Vida
+  - Rock
   layers:
   - Default
   - TransparentFX
